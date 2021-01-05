@@ -1,4 +1,4 @@
-package bytebank;
+package com.bytebank.modelo;
 
 
 public abstract class Funcionario {
@@ -7,6 +7,8 @@ public abstract class Funcionario {
     private String documento;
     private double salario;
     private int tipo;
+    
+    protected String prueba;
 
     public Funcionario() {
 

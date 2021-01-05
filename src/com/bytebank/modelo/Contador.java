@@ -1,5 +1,6 @@
-package bytebank;
+package com.bytebank.modelo;
 
+// default
 public class Contador extends Funcionario {
 
 	@Override

@@ -1,8 +1,11 @@
-package bytebank;
+package com.bytebank.modelo;
 
 public class Cliente implements Autenticable {
 
-    private String nombre;
+	// Public es el mas accesible
+	// Protected 
+	
+	private String nombre;
     private String documento;
     private String telefono;
 
