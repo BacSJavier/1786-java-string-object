@@ -1,5 +1,7 @@
 package com.bytebank.test;
 
+import java.util.ArrayList;
+
 public class TestWrappers {
     public static void main(String[] args) {
         //autoboxing
@@ -18,6 +20,8 @@ public class TestWrappers {
         System.out.println(Entero);
         System.out.println(Doble);
 
+        
+        //ArrayList<int> lista = new ArrayList<>();//Las listas solo aceptan Wrappers(Integer,Double,Boolean) como tipos , no aceptan primitivos(int,double,boolean)
     }
     
 }
